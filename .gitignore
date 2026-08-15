@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ----------------------------------
+# Project Specific (BitTorrent)
+# ----------------------------------
+# Ignore downloaded files to save repo space
+*.iso
+*.mp4
+*.mkv
+
+# Uncomment the line below if you do not want to commit your test .torrent files
+# *.torrent
